@@ -9,17 +9,29 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Confeccao", "Confeccao", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Emissao", "Emissao", "{88126F23-A813-4076-8411-AABE3A8D12D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastro.Core", "Cadastro\Cadastro.Core\Cadastro.Core.csproj", "{8AF21317-02C2-451D-818A-023269992326}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cadastro.Core", "Cadastro\Cadastro.Core\Cadastro.Core.csproj", "{8AF21317-02C2-451D-818A-023269992326}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Suporte", "Suporte", "{0A1C3937-A1A9-4B2D-A901-C805BACD70D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentidadeAcesso.Core", "Suporte\IdentidadeAcesso.Core\IdentidadeAcesso.Core.csproj", "{6B1E35B2-74CA-405D-ADD2-2113995A2EEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentidadeAcesso.Core", "Suporte\IdentidadeAcesso.Core\IdentidadeAcesso.Core.csproj", "{6B1E35B2-74CA-405D-ADD2-2113995A2EEF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NucleoCompartilhado", "NucleoCompartilhado", "{4C0EDBB8-EDE7-44C6-AFE7-F33AA189B557}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nucleo.Core", "NucleoCompartilhado\Nucleo.Core\Nucleo.Core.csproj", "{D2044F68-BA6B-40B7-9D56-F09541BB800F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nucleo.Core", "NucleoCompartilhado\Nucleo.Core\Nucleo.Core.csproj", "{D2044F68-BA6B-40B7-9D56-F09541BB800F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastro.Testes", "Cadastro\Cadastro.Tests\Cadastro.Testes.csproj", "{0503F289-AF0C-4C55-A244-4AA04F341CDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cadastro.Testes", "Cadastro\Cadastro.Tests\Cadastro.Testes.csproj", "{0503F289-AF0C-4C55-A244-4AA04F341CDC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cadastro.Data", "Cadastro\Cadastro.Data\Cadastro.Data.csproj", "{09007B43-B999-420A-B66F-2978CBF5FBF6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Confeccao.Core", "Confeccao\Confeccao.Core\Confeccao.Core.csproj", "{A0FCE082-4F18-498D-9321-93717A62ADAD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Confeccao.Data", "Confeccao\Confeccao.Data\Confeccao.Data.csproj", "{13E5B0C7-3E7A-462F-9288-3D15AEB8A374}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Confeccao.Apresentacao", "Confeccao.Apresentacao\Confeccao.Apresentacao.csproj", "{866DE0CD-5A51-4F72-B37C-8E366369F7D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emissao.Core", "Emissao\Emissao.Core\Emissao.Core.csproj", "{86E31048-BB70-476E-82D9-068CCB4CFAA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventoCertificado", "EventoCertificado\EventoCertificado.csproj", "{E2F392D3-229A-4DF2-8444-9D94B295141C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +55,30 @@ Global
 		{0503F289-AF0C-4C55-A244-4AA04F341CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0503F289-AF0C-4C55-A244-4AA04F341CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0503F289-AF0C-4C55-A244-4AA04F341CDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09007B43-B999-420A-B66F-2978CBF5FBF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09007B43-B999-420A-B66F-2978CBF5FBF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09007B43-B999-420A-B66F-2978CBF5FBF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09007B43-B999-420A-B66F-2978CBF5FBF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0FCE082-4F18-498D-9321-93717A62ADAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0FCE082-4F18-498D-9321-93717A62ADAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0FCE082-4F18-498D-9321-93717A62ADAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0FCE082-4F18-498D-9321-93717A62ADAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13E5B0C7-3E7A-462F-9288-3D15AEB8A374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13E5B0C7-3E7A-462F-9288-3D15AEB8A374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13E5B0C7-3E7A-462F-9288-3D15AEB8A374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13E5B0C7-3E7A-462F-9288-3D15AEB8A374}.Release|Any CPU.Build.0 = Release|Any CPU
+		{866DE0CD-5A51-4F72-B37C-8E366369F7D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{866DE0CD-5A51-4F72-B37C-8E366369F7D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{866DE0CD-5A51-4F72-B37C-8E366369F7D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{866DE0CD-5A51-4F72-B37C-8E366369F7D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86E31048-BB70-476E-82D9-068CCB4CFAA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86E31048-BB70-476E-82D9-068CCB4CFAA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86E31048-BB70-476E-82D9-068CCB4CFAA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86E31048-BB70-476E-82D9-068CCB4CFAA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2F392D3-229A-4DF2-8444-9D94B295141C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2F392D3-229A-4DF2-8444-9D94B295141C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2F392D3-229A-4DF2-8444-9D94B295141C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2F392D3-229A-4DF2-8444-9D94B295141C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +88,11 @@ Global
 		{6B1E35B2-74CA-405D-ADD2-2113995A2EEF} = {0A1C3937-A1A9-4B2D-A901-C805BACD70D2}
 		{D2044F68-BA6B-40B7-9D56-F09541BB800F} = {4C0EDBB8-EDE7-44C6-AFE7-F33AA189B557}
 		{0503F289-AF0C-4C55-A244-4AA04F341CDC} = {0DC06615-F896-4B07-93E0-7775FFE46B77}
+		{09007B43-B999-420A-B66F-2978CBF5FBF6} = {0DC06615-F896-4B07-93E0-7775FFE46B77}
+		{A0FCE082-4F18-498D-9321-93717A62ADAD} = {6C05DEA1-30D0-49B6-85F8-C4CB5FE49176}
+		{13E5B0C7-3E7A-462F-9288-3D15AEB8A374} = {6C05DEA1-30D0-49B6-85F8-C4CB5FE49176}
+		{866DE0CD-5A51-4F72-B37C-8E366369F7D9} = {6C05DEA1-30D0-49B6-85F8-C4CB5FE49176}
+		{86E31048-BB70-476E-82D9-068CCB4CFAA7} = {88126F23-A813-4076-8411-AABE3A8D12D5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CFA0CFCC-A1D5-4992-A8A7-808AAB1B1A6F}

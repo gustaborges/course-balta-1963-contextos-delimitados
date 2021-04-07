@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Nucleo.Core
+namespace Confeccao.Data
 {
     public class Class1
     {

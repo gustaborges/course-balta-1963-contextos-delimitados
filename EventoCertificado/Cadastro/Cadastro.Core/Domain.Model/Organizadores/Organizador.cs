@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Nucleo.Core;
+using System;
 
 namespace Cadastro.Core.Domain.Model.Organizadores
 {
@@ -12,7 +13,9 @@ namespace Cadastro.Core.Domain.Model.Organizadores
         }
 
         public OrganizadorId Id { get; private set; }
-        public NomeCompleto Nome { get; set; }
-        public NomeCompleto Responsavel { get; set; }
+        public NomeCompleto Nome { get; private set; }
+        public NomeCompleto Responsavel { get; private set; } 
+        public bool Ativo { get; private set; }
+        public DateTime DataCadastro { get; private set; }
     }
 }

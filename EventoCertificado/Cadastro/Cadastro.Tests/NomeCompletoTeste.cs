@@ -1,4 +1,5 @@
 using Cadastro.Core.Domain.Model.Organizadores;
+using Nucleo.Core;
 using NUnit.Framework;
 
 namespace Cadastro.Testes

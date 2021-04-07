@@ -1,8 +1,9 @@
-﻿namespace Cadastro.Core.Domain.Model.Organizadores
+﻿namespace Nucleo.Core
 {
     public class NomeCompleto
     {
         public NomeCompleto(string nome, string sobrenome)
+
         {
             Nome = nome;
             Sobrenome = sobrenome;
