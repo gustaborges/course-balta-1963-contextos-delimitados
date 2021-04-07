@@ -20,8 +20,12 @@ namespace EventoCertificado.Controllers
 
         }
 
-        public IActionResult Index()
+        public IActionResult Index(Guid guid, string cpf)
         {
+            var evento = _servicoEvento.RecuperarEvento(new Cadastro.Core.Domain.Model.Eventos.EventoId(guid));
+
+            _servicoCertificado.EmitirCertificado(new Emissao.Core.Domain.Model.Certificados.EventoId(guid), cpf);
+
             return View();
         }
     }

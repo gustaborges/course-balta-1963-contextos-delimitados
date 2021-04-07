@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Cadastro.Core.Application
+namespace Cadastro.Core.Application.Organizadores
 {
     public interface IServicoEvento
     {

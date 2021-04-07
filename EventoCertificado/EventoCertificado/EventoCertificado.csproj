@@ -4,4 +4,9 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Cadastro\Cadastro.Core\Cadastro.Core.csproj" />
+    <ProjectReference Include="..\Emissao\Emissao.Core\Emissao.Core.csproj" />
+  </ItemGroup>
+
 </Project>

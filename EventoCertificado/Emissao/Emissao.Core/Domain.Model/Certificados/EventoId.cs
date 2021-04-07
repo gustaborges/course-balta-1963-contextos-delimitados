@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Emissao.Core.Domain.Model.Certificados
 {
-    class EventoId
+    public class EventoId
     {
+        public EventoId() { }
+        public EventoId(Guid id) { }
     }
 }
